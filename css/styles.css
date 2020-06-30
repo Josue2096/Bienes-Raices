@@ -139,14 +139,20 @@ h4{
 /**Anuncio**/
 
 .contenedor-anuncios{
+    
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    
 }
 
 .anuncio{
-    flex-basis: calc(33.3% - 1rem);
+ 
+    flex: 0 0 calc(33.3% - 1rem);
     border: 1px solid gray;
     background: rgb(238, 233, 233);
+    margin-bottom: 2rem;
+    
 }
 
 .contenido-anuncio{
